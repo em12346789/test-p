@@ -8,4 +8,3 @@ jobs:
       - run: lspci
       - run: ip a
       - run: curl -4 icanhazip.com
-      - run: curl -6 icanhazip.com
