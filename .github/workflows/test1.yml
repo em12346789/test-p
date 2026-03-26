@@ -1,0 +1,9 @@
+name: test1
+on: workflow_dispatch
+jobs:
+  Job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: cat /proc/cpuinfo
+      - run: lspci
+      - run: ip a
