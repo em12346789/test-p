@@ -7,4 +7,4 @@ jobs:
       - run: cat /proc/cpuinfo
       - run: lspci
       - run: ip a
-      - run: curl -4 ifconfig.co
+      - run: curl -4 icanhazip.com
