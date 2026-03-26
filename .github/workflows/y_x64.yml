@@ -1,0 +1,7 @@
+name: y_x64
+on: workflow_dispatch
+jobs:
+  Job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -sL https://yabs.sh | bash
